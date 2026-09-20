@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{789361B1-B193-4062-A061-75E477D0768D}|QuanLyThuVien.csproj|d:\\phat_trien_phan_mem\\lab_oosd\\lab2\\quanlythuvien\\forms\\frmsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789361B1-B193-4062-A061-75E477D0768D}|QuanLyThuVien.csproj|solutionrelative:forms\\frmsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789361B1-B193-4062-A061-75E477D0768D}|QuanLyThuVien.csproj|d:\\phat_trien_phan_mem\\lab_oosd\\lab2\\quanlythuvien\\forms\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789361B1-B193-4062-A061-75E477D0768D}|QuanLyThuVien.csproj|solutionrelative:forms\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789361B1-B193-4062-A061-75E477D0768D}|QuanLyThuVien.csproj|d:\\phat_trien_phan_mem\\lab_oosd\\lab2\\quanlythuvien\\forms\\frmmuontra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789361B1-B193-4062-A061-75E477D0768D}|QuanLyThuVien.csproj|solutionrelative:forms\\frmmuontra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789361B1-B193-4062-A061-75E477D0768D}|QuanLyThuVien.csproj|d:\\phat_trien_phan_mem\\lab_oosd\\lab2\\quanlythuvien\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789361B1-B193-4062-A061-75E477D0768D}|QuanLyThuVien.csproj|solutionrelative:forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmSach.cs [Design]",
+              "DocumentMoniker": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\Forms\\FrmSach.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmSach.cs",
+              "ToolTip": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\Forms\\FrmSach.cs [Design]",
+              "RelativeToolTip": "Forms\\FrmSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T15:04:34.044Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmThongKe.cs [Design]",
+              "DocumentMoniker": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\Forms\\FrmThongKe.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmThongKe.cs",
+              "ToolTip": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\Forms\\FrmThongKe.cs [Design]",
+              "RelativeToolTip": "Forms\\FrmThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T15:04:32.651Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMuonTra.cs [Design]",
+              "DocumentMoniker": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\Forms\\FrmMuonTra.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmMuonTra.cs",
+              "ToolTip": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\Forms\\FrmMuonTra.cs [Design]",
+              "RelativeToolTip": "Forms\\FrmMuonTra.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T15:04:28.671Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\Forms\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmMain.cs",
+              "ToolTip": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB2\\QuanLyThuVien\\Forms\\FrmMain.cs [Design]",
+              "RelativeToolTip": "Forms\\FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T15:04:27.739Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
