@@ -38,7 +38,8 @@ namespace QuanLyThuVien.Data
                 return cmd.ExecuteNonQuery();
             }
         }
-        public static object Scalar(string sql, params SqlParameter[] parameters)
+
+public static object Scalar(string sql, params SqlParameter[] parameters)
         {
             using (SqlConnection cn = OpenConnection())
             using (SqlCommand cmd = new SqlCommand(sql, cn))

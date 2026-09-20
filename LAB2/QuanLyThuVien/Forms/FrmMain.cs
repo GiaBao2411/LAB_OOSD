@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QuanLyThuVien.Forms
@@ -10,15 +17,15 @@ namespace QuanLyThuVien.Forms
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e) { using (FrmDanhMuc f = new FrmDanhMuc()) f.ShowDialog(this); }
-        private void button2_Click(object sender, EventArgs e) { using (FrmSach f = new FrmSach()) f.ShowDialog(this); }
-        private void button3_Click(object sender, EventArgs e) { using (FrmDocGia f = new FrmDocGia()) f.ShowDialog(this); }
-        private void button4_Click(object sender, EventArgs e) { using (FrmMuonTra f = new FrmMuonTra()) f.ShowDialog(this); }
-        private void button5_Click(object sender, EventArgs e) { using (FrmThongKe f = new FrmThongKe()) f.ShowDialog(this); }
-        private void button6_Click(object sender, EventArgs e)
+        private void btnDanhMuc_Click(object sender, EventArgs e) { using (FrmDanhMuc f = new FrmDanhMuc()) f.ShowDialog(this); }
+        private void btnSach_Click(object sender, EventArgs e) { using (FrmSach f = new FrmSach()) f.ShowDialog(this); }
+        private void btnDocGia_Click(object sender, EventArgs e) { using (FrmDocGia f = new FrmDocGia()) f.ShowDialog(this); }
+        private void btnMuonTra_Click(object sender, EventArgs e) { using (FrmMuonTra f = new FrmMuonTra()) f.ShowDialog(this); }
+        private void btnThongKe_Click(object sender, EventArgs e) { using (FrmThongKe f = new FrmThongKe()) f.ShowDialog(this); }
+        private void btnThoat_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Bạn có thực sự muốn thoát chương trình?", "Xác nhận",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) Close();
+            MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) Close();
         }
 
         private void FrmMain_Load(object sender, EventArgs e)
@@ -30,5 +37,7 @@ namespace QuanLyThuVien.Forms
         {
 
         }
+
+        
     }
 }
