@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDichVu.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forms\\FrmDichVu.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDichVu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forms\\FrmDichVu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDatPhong.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forms\\FrmDatPhong.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDatPhong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forms\\FrmDatPhong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDanhMuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forms\\FrmDanhMuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmDichVu.Designer.cs",
+              "DocumentMoniker": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDichVu.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmDichVu.Designer.cs",
+              "ToolTip": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDichVu.Designer.cs",
+              "RelativeToolTip": "Forms\\FrmDichVu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T11:11:39.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmDichVu.cs",
+              "DocumentMoniker": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDichVu.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmDichVu.cs",
+              "ToolTip": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDichVu.cs",
+              "RelativeToolTip": "Forms\\FrmDichVu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T11:11:38.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmDatPhong.Designer.cs",
+              "DocumentMoniker": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDatPhong.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmDatPhong.Designer.cs",
+              "ToolTip": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDatPhong.Designer.cs",
+              "RelativeToolTip": "Forms\\FrmDatPhong.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T11:11:37.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmDatPhong.cs",
+              "DocumentMoniker": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDatPhong.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmDatPhong.cs",
+              "ToolTip": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDatPhong.cs",
+              "RelativeToolTip": "Forms\\FrmDatPhong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T11:11:36.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmDanhMuc.cs",
+              "DocumentMoniker": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDanhMuc.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmDanhMuc.cs",
+              "ToolTip": "D:\\DOWNLOADS\\QuanLyKhachSan\\QuanLyKhachSan\\Forms\\FrmDanhMuc.cs",
+              "RelativeToolTip": "Forms\\FrmDanhMuc.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T11:11:27.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
