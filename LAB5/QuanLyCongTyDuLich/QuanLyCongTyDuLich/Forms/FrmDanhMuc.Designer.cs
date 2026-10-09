@@ -148,13 +148,13 @@
             // 
             this.txtPTTen.Location = new System.Drawing.Point(310, 325);
             this.txtPTTen.Name = "txtPTTen";
-            this.txtPTTen.Size = new System.Drawing.Size(200, 27);
+            this.txtPTTen.Size = new System.Drawing.Size(166, 27);
             this.txtPTTen.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(573, 328);
+            this.label3.Location = new System.Drawing.Point(521, 328);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 20);
             this.label3.TabIndex = 6;
@@ -162,14 +162,14 @@
             // 
             // txtPTGhiChu
             // 
-            this.txtPTGhiChu.Location = new System.Drawing.Point(660, 328);
+            this.txtPTGhiChu.Location = new System.Drawing.Point(585, 325);
             this.txtPTGhiChu.Name = "txtPTGhiChu";
-            this.txtPTGhiChu.Size = new System.Drawing.Size(200, 27);
+            this.txtPTGhiChu.Size = new System.Drawing.Size(257, 27);
             this.txtPTGhiChu.TabIndex = 7;
             // 
             // btnThemPT
             // 
-            this.btnThemPT.Location = new System.Drawing.Point(10, 372);
+            this.btnThemPT.Location = new System.Drawing.Point(760, 383);
             this.btnThemPT.Name = "btnThemPT";
             this.btnThemPT.Size = new System.Drawing.Size(100, 28);
             this.btnThemPT.TabIndex = 8;
@@ -225,9 +225,9 @@
             // 
             // txtDBMa
             // 
-            this.txtDBMa.Location = new System.Drawing.Point(100, 325);
+            this.txtDBMa.Location = new System.Drawing.Point(113, 325);
             this.txtDBMa.Name = "txtDBMa";
-            this.txtDBMa.Size = new System.Drawing.Size(110, 27);
+            this.txtDBMa.Size = new System.Drawing.Size(97, 27);
             this.txtDBMa.TabIndex = 11;
             // 
             // label5
@@ -241,9 +241,9 @@
             // 
             // txtDBTen
             // 
-            this.txtDBTen.Location = new System.Drawing.Point(350, 325);
+            this.txtDBTen.Location = new System.Drawing.Point(365, 325);
             this.txtDBTen.Name = "txtDBTen";
-            this.txtDBTen.Size = new System.Drawing.Size(250, 27);
+            this.txtDBTen.Size = new System.Drawing.Size(269, 27);
             this.txtDBTen.TabIndex = 13;
             // 
             // label6
@@ -257,9 +257,9 @@
             // 
             // txtDBDiaChi
             // 
-            this.txtDBDiaChi.Location = new System.Drawing.Point(100, 360);
+            this.txtDBDiaChi.Location = new System.Drawing.Point(73, 360);
             this.txtDBDiaChi.Name = "txtDBDiaChi";
-            this.txtDBDiaChi.Size = new System.Drawing.Size(300, 27);
+            this.txtDBDiaChi.Size = new System.Drawing.Size(321, 27);
             this.txtDBDiaChi.TabIndex = 15;
             // 
             // label7
@@ -273,14 +273,14 @@
             // 
             // txtDBDT
             // 
-            this.txtDBDT.Location = new System.Drawing.Point(520, 360);
+            this.txtDBDT.Location = new System.Drawing.Point(532, 360);
             this.txtDBDT.Name = "txtDBDT";
             this.txtDBDT.Size = new System.Drawing.Size(130, 27);
             this.txtDBDT.TabIndex = 17;
             // 
             // btnThemDB
             // 
-            this.btnThemDB.Location = new System.Drawing.Point(700, 357);
+            this.btnThemDB.Location = new System.Drawing.Point(760, 383);
             this.btnThemDB.Name = "btnThemDB";
             this.btnThemDB.Size = new System.Drawing.Size(100, 28);
             this.btnThemDB.TabIndex = 18;
@@ -389,7 +389,7 @@
             0,
             0,
             0});
-            this.numLuong.Location = new System.Drawing.Point(400, 360);
+            this.numLuong.Location = new System.Drawing.Point(413, 360);
             this.numLuong.Maximum = new decimal(new int[] {
             2000000000,
             0,
@@ -403,7 +403,7 @@
             // 
             // btnThemHDV
             // 
-            this.btnThemHDV.Location = new System.Drawing.Point(700, 357);
+            this.btnThemHDV.Location = new System.Drawing.Point(766, 383);
             this.btnThemHDV.Name = "btnThemHDV";
             this.btnThemHDV.Size = new System.Drawing.Size(100, 28);
             this.btnThemHDV.TabIndex = 28;
@@ -461,7 +461,7 @@
             // 
             // txtDTQMa
             // 
-            this.txtDTQMa.Location = new System.Drawing.Point(90, 300);
+            this.txtDTQMa.Location = new System.Drawing.Point(107, 300);
             this.txtDTQMa.Name = "txtDTQMa";
             this.txtDTQMa.Size = new System.Drawing.Size(100, 27);
             this.txtDTQMa.TabIndex = 31;
@@ -477,7 +477,7 @@
             // 
             // txtDTQTen
             // 
-            this.txtDTQTen.Location = new System.Drawing.Point(310, 300);
+            this.txtDTQTen.Location = new System.Drawing.Point(329, 300);
             this.txtDTQTen.Name = "txtDTQTen";
             this.txtDTQTen.Size = new System.Drawing.Size(220, 27);
             this.txtDTQTen.TabIndex = 33;
@@ -493,7 +493,7 @@
             // 
             // txtDTQDiaDiem
             // 
-            this.txtDTQDiaDiem.Location = new System.Drawing.Point(620, 300);
+            this.txtDTQDiaDiem.Location = new System.Drawing.Point(636, 300);
             this.txtDTQDiaDiem.Name = "txtDTQDiaDiem";
             this.txtDTQDiaDiem.Size = new System.Drawing.Size(180, 27);
             this.txtDTQDiaDiem.TabIndex = 35;
@@ -525,14 +525,14 @@
             // 
             // txtDTQYNghia
             // 
-            this.txtDTQYNghia.Location = new System.Drawing.Point(510, 335);
+            this.txtDTQYNghia.Location = new System.Drawing.Point(526, 335);
             this.txtDTQYNghia.Name = "txtDTQYNghia";
             this.txtDTQYNghia.Size = new System.Drawing.Size(290, 27);
             this.txtDTQYNghia.TabIndex = 39;
             // 
             // btnThemDTQ
             // 
-            this.btnThemDTQ.Location = new System.Drawing.Point(750, 332);
+            this.btnThemDTQ.Location = new System.Drawing.Point(760, 383);
             this.btnThemDTQ.Name = "btnThemDTQ";
             this.btnThemDTQ.Size = new System.Drawing.Size(100, 28);
             this.btnThemDTQ.TabIndex = 40;

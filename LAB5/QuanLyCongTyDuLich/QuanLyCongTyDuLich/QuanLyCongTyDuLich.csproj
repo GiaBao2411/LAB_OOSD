@@ -130,8 +130,17 @@
     <EmbeddedResource Include="Forms\FrmDanhMuc.resx">
       <DependentUpon>FrmDanhMuc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmKetThucKhaoSat.resx">
+      <DependentUpon>FrmKetThucKhaoSat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLuongThongKe.resx">
+      <DependentUpon>FrmLuongThongKe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmPhanCongHDV.resx">
       <DependentUpon>FrmPhanCongHDV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTour.resx">
+      <DependentUpon>FrmTour.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

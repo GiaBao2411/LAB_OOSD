@@ -1,52 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Downloads\\QuanLyCongTyDuLich (1)\\QuanLyCongTyDuLich\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A3C1E5D2-7B4F-4E86-9C0A-5D2F8B13E7A1}|QuanLyCongTyDuLich.csproj|d:\\downloads\\quanlycongtydulich (1)\\quanlycongtydulich\\forms\\frmchuyenle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A3C1E5D2-7B4F-4E86-9C0A-5D2F8B13E7A1}|QuanLyCongTyDuLich.csproj|solutionrelative:forms\\frmchuyenle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3C1E5D2-7B4F-4E86-9C0A-5D2F8B13E7A1}|QuanLyCongTyDuLich.csproj|d:\\downloads\\quanlycongtydulich (1)\\quanlycongtydulich\\forms\\frmdangkyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A3C1E5D2-7B4F-4E86-9C0A-5D2F8B13E7A1}|QuanLyCongTyDuLich.csproj|solutionrelative:forms\\frmdangkyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\Phat_Trien_Phan_Mem\\LAB_OOSD\\LAB5\\QuanLyCongTyDuLich\\QuanLyCongTyDuLich\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmChuyenLe.cs [Design]",
-              "DocumentMoniker": "D:\\Downloads\\QuanLyCongTyDuLich (1)\\QuanLyCongTyDuLich\\Forms\\FrmChuyenLe.cs",
-              "RelativeDocumentMoniker": "Forms\\FrmChuyenLe.cs",
-              "ToolTip": "D:\\Downloads\\QuanLyCongTyDuLich (1)\\QuanLyCongTyDuLich\\Forms\\FrmChuyenLe.cs [Design]",
-              "RelativeToolTip": "Forms\\FrmChuyenLe.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T03:22:42.96Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmDangKyLe.cs [Design]",
-              "DocumentMoniker": "D:\\Downloads\\QuanLyCongTyDuLich (1)\\QuanLyCongTyDuLich\\Forms\\FrmDangKyLe.cs",
-              "RelativeDocumentMoniker": "Forms\\FrmDangKyLe.cs",
-              "ToolTip": "D:\\Downloads\\QuanLyCongTyDuLich (1)\\QuanLyCongTyDuLich\\Forms\\FrmDangKyLe.cs [Design]",
-              "RelativeToolTip": "Forms\\FrmDangKyLe.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T03:22:28.946Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

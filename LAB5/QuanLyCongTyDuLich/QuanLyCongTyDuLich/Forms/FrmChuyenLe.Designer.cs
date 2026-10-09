@@ -21,13 +21,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dtDi = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
+            this.lblNgayVe = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtDon = new System.Windows.Forms.TextBox();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnDongDK = new System.Windows.Forms.Button();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.btnDong = new System.Windows.Forms.Button();
-            this.dtVe = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,9 +60,9 @@
             // 
             this.cboTour.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTour.FormattingEnabled = true;
-            this.cboTour.Location = new System.Drawing.Point(281, 15);
+            this.cboTour.Location = new System.Drawing.Point(336, 15);
             this.cboTour.Name = "cboTour";
-            this.cboTour.Size = new System.Drawing.Size(300, 28);
+            this.cboTour.Size = new System.Drawing.Size(234, 28);
             this.cboTour.TabIndex = 3;
             this.cboTour.SelectedIndexChanged += new System.EventHandler(this.TinhNgayVe);
             // 
@@ -81,7 +81,7 @@
             this.dtDi.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtDi.Location = new System.Drawing.Point(667, 15);
             this.dtDi.Name = "dtDi";
-            this.dtDi.Size = new System.Drawing.Size(110, 27);
+            this.dtDi.Size = new System.Drawing.Size(143, 27);
             this.dtDi.TabIndex = 5;
             this.dtDi.ValueChanged += new System.EventHandler(this.TinhNgayVe);
             // 
@@ -94,6 +94,16 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Ngày về:";
             // 
+            // lblNgayVe
+            // 
+            this.lblNgayVe.AutoSize = true;
+            this.lblNgayVe.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblNgayVe.Location = new System.Drawing.Point(90, 55);
+            this.lblNgayVe.Name = "lblNgayVe";
+            this.lblNgayVe.Size = new System.Drawing.Size(15, 20);
+            this.lblNgayVe.TabIndex = 7;
+            this.lblNgayVe.Text = "-";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -105,9 +115,9 @@
             // 
             // txtDon
             // 
-            this.txtDon.Location = new System.Drawing.Point(336, 46);
+            this.txtDon.Location = new System.Drawing.Point(336, 50);
             this.txtDon.Name = "txtDon";
-            this.txtDon.Size = new System.Drawing.Size(245, 27);
+            this.txtDon.Size = new System.Drawing.Size(234, 27);
             this.txtDon.TabIndex = 9;
             // 
             // btnThem
@@ -157,21 +167,11 @@
             this.btnDong.UseVisualStyleBackColor = true;
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
-            // dtVe
-            // 
-            this.dtVe.CustomFormat = "dd/MM/yyyy";
-            this.dtVe.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtVe.Location = new System.Drawing.Point(90, 55);
-            this.dtVe.Name = "dtVe";
-            this.dtVe.Size = new System.Drawing.Size(110, 27);
-            this.dtVe.TabIndex = 14;
-            // 
             // FrmChuyenLe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 520);
-            this.Controls.Add(this.dtVe);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtMa);
             this.Controls.Add(this.label2);
@@ -179,6 +179,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dtDi);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblNgayVe);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtDon);
             this.Controls.Add(this.btnThem);
@@ -208,12 +209,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dtDi;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblNgayVe;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtDon;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnDongDK;
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.Button btnDong;
-        private System.Windows.Forms.DateTimePicker dtVe;
     }
 }

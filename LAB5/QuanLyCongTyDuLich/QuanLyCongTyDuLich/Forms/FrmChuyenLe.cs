@@ -24,17 +24,16 @@ namespace QuanLyCongTyDuLich.Forms
         }
  
         private void Tai() { dgv.DataSource = svc.LayChuyen(); }
-
+ 
         private void TinhNgayVe(object sender, EventArgs e)
         {
             var r = cboTour.SelectedItem as DataRowView;
-            if (r == null) return;
-            dtVe.Value = dtDi.Value.Date.AddDays(Convert.ToInt32(r["SoNgay"]) - 1);
+            lblNgayVe.Text = r == null ? "-" : dtDi.Value.Date.AddDays(Convert.ToInt32(r["SoNgay"]) - 1).ToString("dd/MM/yyyy");
         }
-
+ 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (FormHelper.Bao(svc.ThemChuyen(txtMa.Text, FormHelper.Gia(cboTour), dtDi.Value, dtVe.Value, txtDon.Text))) Tai();
+            if (FormHelper.Bao(svc.ThemChuyen(txtMa.Text, FormHelper.Gia(cboTour), dtDi.Value, txtDon.Text))) Tai();
         }
  
         private void btnDongDK_Click(object sender, EventArgs e)

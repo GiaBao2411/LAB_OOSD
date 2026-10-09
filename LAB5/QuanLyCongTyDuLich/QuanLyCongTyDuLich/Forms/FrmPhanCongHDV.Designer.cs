@@ -42,7 +42,7 @@
             // 
             // txtMaPC
             // 
-            this.txtMaPC.Location = new System.Drawing.Point(100, 15);
+            this.txtMaPC.Location = new System.Drawing.Point(120, 15);
             this.txtMaPC.Name = "txtMaPC";
             this.txtMaPC.Size = new System.Drawing.Size(100, 27);
             this.txtMaPC.TabIndex = 1;
@@ -50,7 +50,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(314, 18);
+            this.label2.Location = new System.Drawing.Point(330, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(115, 20);
             this.label2.TabIndex = 2;
@@ -60,9 +60,9 @@
             // 
             this.cboHDV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboHDV.FormattingEnabled = true;
-            this.cboHDV.Location = new System.Drawing.Point(435, 15);
+            this.cboHDV.Location = new System.Drawing.Point(451, 15);
             this.cboHDV.Name = "cboHDV";
-            this.cboHDV.Size = new System.Drawing.Size(220, 28);
+            this.cboHDV.Size = new System.Drawing.Size(204, 28);
             this.cboHDV.TabIndex = 3;
             // 
             // label3
@@ -97,15 +97,15 @@
             // 
             this.cboDoiTuong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboDoiTuong.FormattingEnabled = true;
-            this.cboDoiTuong.Location = new System.Drawing.Point(100, 52);
+            this.cboDoiTuong.Location = new System.Drawing.Point(120, 52);
             this.cboDoiTuong.Name = "cboDoiTuong";
-            this.cboDoiTuong.Size = new System.Drawing.Size(329, 28);
+            this.cboDoiTuong.Size = new System.Drawing.Size(325, 28);
             this.cboDoiTuong.TabIndex = 7;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(514, 55);
+            this.label5.Location = new System.Drawing.Point(503, 55);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(89, 20);
             this.label5.TabIndex = 8;
@@ -118,7 +118,7 @@
             0,
             0,
             0});
-            this.numThuLao.Location = new System.Drawing.Point(609, 51);
+            this.numThuLao.Location = new System.Drawing.Point(598, 51);
             this.numThuLao.Maximum = new decimal(new int[] {
             2000000000,
             0,
@@ -132,7 +132,7 @@
             // 
             // btnPhanCong
             // 
-            this.btnPhanCong.Location = new System.Drawing.Point(770, 49);
+            this.btnPhanCong.Location = new System.Drawing.Point(765, 51);
             this.btnPhanCong.Name = "btnPhanCong";
             this.btnPhanCong.Size = new System.Drawing.Size(110, 28);
             this.btnPhanCong.TabIndex = 10;

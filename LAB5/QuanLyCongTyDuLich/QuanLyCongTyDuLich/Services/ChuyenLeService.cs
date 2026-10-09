@@ -17,23 +17,22 @@ namespace QuanLyCongTyDuLich.Services
             return Db.Query("SELECT c.MaChuyen, c.MaChuyen + ' - ' + t.TenTour + ' (' + CONVERT(varchar(10), c.NgayDi, 103) + ')' AS HienThi, t.DonGiaKhach FROM ChuyenLe c JOIN Tour t ON c.MaTour = t.MaTour WHERE c.TrangThai = @tt ORDER BY c.NgayDi",
                 Db.P("@tt", QuyDinh.MoDangKy));
         }
-
-        public KetQuaXuLy ThemChuyen(string ma, string maTour, DateTime ngayDi, DateTime ngayVe, string diaDiemDon)
+ 
+        public KetQuaXuLy ThemChuyen(string ma, string maTour, DateTime ngayDi, string diaDiemDon)
         {
-            if (string.IsNullOrWhiteSpace(ma) || string.IsNullOrWhiteSpace(maTour) || string.IsNullOrWhiteSpace(diaDiemDon))
-                return KetQuaXuLy.Fail("Thông tin chuyến chưa đầy đủ.");
-            if (ngayVe.Date < ngayDi.Date) return KetQuaXuLy.Fail("Ngày về không được trước ngày đi.");
+            if (string.IsNullOrWhiteSpace(ma) || string.IsNullOrWhiteSpace(maTour) || string.IsNullOrWhiteSpace(diaDiemDon)) return KetQuaXuLy.Fail("Thông tin chuyến chưa đầy đủ.");
             try
             {
-                object o = Db.Scalar("SELECT 1 FROM Tour WHERE MaTour = @t AND DangMoBan = 1", Db.P("@t", maTour));
+                object o = Db.Scalar("SELECT SoNgay FROM Tour WHERE MaTour = @t AND DangMoBan = 1", Db.P("@t", maTour));
                 if (o == null) return KetQuaXuLy.Fail("Tour không tồn tại hoặc chưa mở bán.");
+                DateTime ngayVe = ngayDi.Date.AddDays(Convert.ToInt32(o) - 1);
                 Db.Execute("INSERT INTO ChuyenLe(MaChuyen, MaTour, NgayDi, NgayVe, DiaDiemDon, TrangThai) VALUES(@m, @t, @d, @v, @dd, @tt)",
-                    Db.P("@m", ma), Db.P("@t", maTour), Db.P("@d", ngayDi.Date), Db.P("@v", ngayVe.Date), Db.P("@dd", diaDiemDon), Db.P("@tt", QuyDinh.MoDangKy));
+                    Db.P("@m", ma), Db.P("@t", maTour), Db.P("@d", ngayDi.Date), Db.P("@v", ngayVe), Db.P("@dd", diaDiemDon), Db.P("@tt", QuyDinh.MoDangKy));
                 return KetQuaXuLy.Ok("Đã tạo chuyến; ngày về " + ngayVe.ToString("dd/MM/yyyy") + ".");
             }
             catch (Exception ex) { return KetQuaXuLy.Fail(ex.Message); }
         }
-
+ 
         public KetQuaXuLy DongDangKy(string ma)
         {
             if (string.IsNullOrWhiteSpace(ma)) return KetQuaXuLy.Fail("Chưa chọn chuyến.");
