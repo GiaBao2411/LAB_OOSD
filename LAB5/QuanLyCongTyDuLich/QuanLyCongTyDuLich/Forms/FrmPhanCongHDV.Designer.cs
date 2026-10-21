@@ -30,161 +30,111 @@
             ((System.ComponentModel.ISupportInitialize)(this.numThuLao)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 20);
-            this.label1.TabIndex = 0;
+            this.label1.Location = new System.Drawing.Point(10, 18);
+            this.label1.AutoSize = true;
             this.label1.Text = "Mã phân công";
-            // 
-            // txtMaPC
-            // 
-            this.txtMaPC.Location = new System.Drawing.Point(120, 15);
+            this.label1.TabIndex = 0;
+            this.Controls.Add(this.label1);
             this.txtMaPC.Name = "txtMaPC";
-            this.txtMaPC.Size = new System.Drawing.Size(100, 27);
+            this.txtMaPC.Location = new System.Drawing.Point(100, 15);
+            this.txtMaPC.Size = new System.Drawing.Size(100, 23);
             this.txtMaPC.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(330, 18);
+            this.Controls.Add(this.txtMaPC);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 20);
-            this.label2.TabIndex = 2;
+            this.label2.Location = new System.Drawing.Point(330, 18);
+            this.label2.AutoSize = true;
             this.label2.Text = "Hướng dẫn viên";
-            // 
-            // cboHDV
-            // 
-            this.cboHDV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboHDV.FormattingEnabled = true;
-            this.cboHDV.Location = new System.Drawing.Point(451, 15);
+            this.label2.TabIndex = 2;
+            this.Controls.Add(this.label2);
             this.cboHDV.Name = "cboHDV";
-            this.cboHDV.Size = new System.Drawing.Size(204, 28);
+            this.cboHDV.Location = new System.Drawing.Point(435, 15);
+            this.cboHDV.Size = new System.Drawing.Size(220, 23);
+            this.cboHDV.FormattingEnabled = true;
+            this.cboHDV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboHDV.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(620, 18);
+            this.Controls.Add(this.cboHDV);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 20);
-            this.label3.TabIndex = 4;
+            this.label3.Location = new System.Drawing.Point(620, 18);
+            this.label3.AutoSize = true;
             this.label3.Text = "Loại";
-            // 
-            // cboLoai
-            // 
-            this.cboLoai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboLoai.FormattingEnabled = true;
-            this.cboLoai.Location = new System.Drawing.Point(660, 15);
+            this.label3.TabIndex = 4;
+            this.Controls.Add(this.label3);
             this.cboLoai.Name = "cboLoai";
-            this.cboLoai.Size = new System.Drawing.Size(100, 28);
+            this.cboLoai.Location = new System.Drawing.Point(660, 15);
+            this.cboLoai.Size = new System.Drawing.Size(100, 23);
+            this.cboLoai.FormattingEnabled = true;
+            this.cboLoai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLoai.TabIndex = 5;
             this.cboLoai.SelectedIndexChanged += new System.EventHandler(this.cboLoai_SelectedIndexChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 55);
+            this.Controls.Add(this.cboLoai);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 20);
-            this.label4.TabIndex = 6;
+            this.label4.Location = new System.Drawing.Point(10, 55);
+            this.label4.AutoSize = true;
             this.label4.Text = "Chuyến / đoàn";
-            // 
-            // cboDoiTuong
-            // 
-            this.cboDoiTuong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboDoiTuong.FormattingEnabled = true;
-            this.cboDoiTuong.Location = new System.Drawing.Point(120, 52);
+            this.label4.TabIndex = 6;
+            this.Controls.Add(this.label4);
             this.cboDoiTuong.Name = "cboDoiTuong";
-            this.cboDoiTuong.Size = new System.Drawing.Size(325, 28);
+            this.cboDoiTuong.Location = new System.Drawing.Point(100, 52);
+            this.cboDoiTuong.Size = new System.Drawing.Size(420, 23);
+            this.cboDoiTuong.FormattingEnabled = true;
+            this.cboDoiTuong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboDoiTuong.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(503, 55);
+            this.Controls.Add(this.cboDoiTuong);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 20);
-            this.label5.TabIndex = 8;
+            this.label5.Location = new System.Drawing.Point(620, 55);
+            this.label5.AutoSize = true;
             this.label5.Text = "Thù lao tour";
-            // 
-            // numThuLao
-            // 
-            this.numThuLao.Increment = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.numThuLao.Location = new System.Drawing.Point(598, 51);
-            this.numThuLao.Maximum = new decimal(new int[] {
-            2000000000,
-            0,
-            0,
-            0});
+            this.label5.TabIndex = 8;
+            this.Controls.Add(this.label5);
             this.numThuLao.Name = "numThuLao";
-            this.numThuLao.Size = new System.Drawing.Size(130, 27);
-            this.numThuLao.TabIndex = 9;
-            this.numThuLao.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numThuLao.Location = new System.Drawing.Point(700, 52);
+            this.numThuLao.Size = new System.Drawing.Size(130, 23);
+            this.numThuLao.Minimum = new decimal(new int[] { 0, 0, 0, 0 });
+            this.numThuLao.Maximum = new decimal(new int[] { 2000000000, 0, 0, 0 });
+            this.numThuLao.Increment = new decimal(new int[] { 100000, 0, 0, 0 });
+            this.numThuLao.Value = new decimal(new int[] { 0, 0, 0, 0 });
             this.numThuLao.ThousandsSeparator = true;
-            // 
-            // btnPhanCong
-            // 
-            this.btnPhanCong.Location = new System.Drawing.Point(765, 51);
+            this.numThuLao.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numThuLao.TabIndex = 9;
+            this.Controls.Add(this.numThuLao);
             this.btnPhanCong.Name = "btnPhanCong";
+            this.btnPhanCong.Location = new System.Drawing.Point(770, 49);
             this.btnPhanCong.Size = new System.Drawing.Size(110, 28);
-            this.btnPhanCong.TabIndex = 10;
             this.btnPhanCong.Text = "Phân công";
             this.btnPhanCong.UseVisualStyleBackColor = true;
+            this.btnPhanCong.TabIndex = 10;
             this.btnPhanCong.Click += new System.EventHandler(this.btnPhanCong_Click);
-            // 
-            // dgv
-            // 
+            this.Controls.Add(this.btnPhanCong);
+            this.dgv.Name = "dgv";
+            this.dgv.Location = new System.Drawing.Point(10, 92);
+            this.dgv.Size = new System.Drawing.Size(880, 350);
             this.dgv.AllowUserToAddRows = false;
             this.dgv.AllowUserToDeleteRows = false;
-            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgv.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dgv.ColumnHeadersHeight = 29;
-            this.dgv.Location = new System.Drawing.Point(10, 92);
-            this.dgv.MultiSelect = false;
-            this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
-            this.dgv.RowHeadersVisible = false;
-            this.dgv.RowHeadersWidth = 51;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv.Size = new System.Drawing.Size(880, 350);
+            this.dgv.MultiSelect = false;
+            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv.RowHeadersVisible = false;
+            this.dgv.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dgv.TabIndex = 11;
-            // 
-            // btnDong
-            // 
-            this.btnDong.Location = new System.Drawing.Point(790, 455);
+            this.Controls.Add(this.dgv);
             this.btnDong.Name = "btnDong";
+            this.btnDong.Location = new System.Drawing.Point(790, 455);
             this.btnDong.Size = new System.Drawing.Size(100, 28);
-            this.btnDong.TabIndex = 12;
             this.btnDong.Text = "Đóng";
             this.btnDong.UseVisualStyleBackColor = true;
+            this.btnDong.TabIndex = 12;
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
-            // 
+            this.Controls.Add(this.btnDong);
+            ((System.ComponentModel.ISupportInitialize)(this.numThuLao)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            //
             // FrmPhanCongHDV
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            //
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 500);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtMaPC);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.cboHDV);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.cboLoai);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.cboDoiTuong);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.numThuLao);
-            this.Controls.Add(this.btnPhanCong);
-            this.Controls.Add(this.dgv);
-            this.Controls.Add(this.btnDong);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -193,8 +143,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Phân công hướng dẫn viên";
             this.Load += new System.EventHandler(this.FrmPhanCongHDV_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numThuLao)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

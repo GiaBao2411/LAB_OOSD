@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\QuanLyCongTyDuLich"
+    "\\QuanLyCongTyDuLich",
+    "\\QuanLyCongTyDuLich\\bin",
+    "\\QuanLyCongTyDuLich\\bin\\Debug",
+    "\\QuanLyCongTyDuLich\\bin\\Release",
+    "\\QuanLyCongTyDuLich\\Forms",
+    "\\QuanLyCongTyDuLich\\obj",
+    "\\QuanLyCongTyDuLich\\obj\\Debug",
+    "\\QuanLyCongTyDuLich\\obj\\Release",
+    "\\QuanLyCongTyDuLich\\Services"
   ],
-  "SelectedNode": "\\QuanLyCongTyDuLich\\QuanLyCongTyDuLich.sln",
   "PreviewInSolutionExplorer": false
 }
