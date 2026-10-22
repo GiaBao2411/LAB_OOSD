@@ -1,0 +1,8 @@
+D:\Downloads\QuanLyBenhAn\QuanLyBenhAn\bin\Debug\Database\QuanLyBenhAn.sql
+D:\Downloads\QuanLyBenhAn\QuanLyBenhAn\bin\Debug\QuanLyBenhAn.exe.config
+D:\Downloads\QuanLyBenhAn\QuanLyBenhAn\bin\Debug\QuanLyBenhAn.exe
+D:\Downloads\QuanLyBenhAn\QuanLyBenhAn\bin\Debug\QuanLyBenhAn.pdb
+D:\Downloads\QuanLyBenhAn\QuanLyBenhAn\obj\Debug\QuanLyBenhAn.csproj.AssemblyReference.cache
+D:\Downloads\QuanLyBenhAn\QuanLyBenhAn\obj\Debug\QuanLyBenhAn.csproj.CoreCompileInputs.cache
+D:\Downloads\QuanLyBenhAn\QuanLyBenhAn\obj\Debug\QuanLyBenhAn.exe
+D:\Downloads\QuanLyBenhAn\QuanLyBenhAn\obj\Debug\QuanLyBenhAn.pdb
