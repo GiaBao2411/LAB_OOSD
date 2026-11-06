@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chay QuanLyChoThueVanPhong",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/QuanLyChoThueVanPhong/bin/Debug/net8.0-windows/QuanLyChoThueVanPhong.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}/QuanLyChoThueVanPhong",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    }
+  ]
+}
